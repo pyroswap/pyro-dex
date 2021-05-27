@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Token, Trade } from '@pancakeswap-libs/sdk'
+import { CurrencyAmount, JSBI, Token, Trade } from '@pyroswap/sdk'
 import React, { useCallback, useContext, useEffect, useMemo, useState, useRef } from 'react'
 import { ArrowDown } from 'react-feather'
 import { CardBody, ArrowDownIcon, Button, IconButton, Text, useModal, Link, Flex } from '@pyroswap/uikit'
@@ -133,7 +133,7 @@ const Swap = () => {
       }
 
       if (modalCountdownSecondsRemaining <= 0) {
-        window.location.href = 'https://exchange.pancakeswap.finance/#/swap'
+        window.location.href = 'https://dex.pyroswap.com/#/swap'
       }
 
       return () => {
@@ -468,8 +468,8 @@ const Swap = () => {
                 <Flex alignItems="center" justifyContent="center" mb="1rem">
                   <Text color="failure">
                     Please use{' '}
-                    <StyledLink external href="https://exchange.pancakeswap.finance">
-                      PancakeSwap V2
+                    <StyledLink external href="https://dex.pyroswap.com">
+                      PyroSwap V2
                     </StyledLink>{' '}
                     to make this trade
                   </Text>

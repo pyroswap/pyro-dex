@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import { Card, CardHeader, CardBody, Text, Box, Button, Flex, ArrowDownIcon, Link } from '@pyroswap/uikit'
-import { Pair } from '@pancakeswap-libs/sdk'
+import { Pair } from '@pyroswap/sdk'
 import { useTokenBalancesWithLoadingIndicator } from 'state/wallet/hooks'
 import { toV2LiquidityToken, useTrackedTokenPairs } from 'state/user/hooks'
 import { StyledInternalLink } from 'components/Shared'
@@ -91,7 +91,7 @@ const SecondCard = () => {
               If you added liquidity to V2 LPs during the migration attempt on April 23, you need to unstake and remove
               liquidity.
             </Text>
-            <Button as={Link} external href="https://hiccup.pancakeswap.finance/#/pool" style={{ width: '100%' }}>
+            <Button as={Link} external href="https://hiccup.pyroswap.finance/#/pool" style={{ width: '100%' }}>
               Remove
             </Button>
           </CardBody>

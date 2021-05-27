@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from '@pyroswap/uikit'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@pancakeswap-libs/sdk'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from '@pyroswap/sdk'
 import styled from 'styled-components'
 
 import useI18n from 'hooks/useI18n'
