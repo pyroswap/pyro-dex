@@ -2801,7 +2801,7 @@
     "@crowdin/crowdin-api-client" "^1.8.16"
     "@ethersproject/experimental" "^5.0.1"
     "@popperjs/core" "^2.4.4"
-    "@pyroswap/sdk" "1.0.1"
+    "@pyroswap/sdk" "^2.2.5"
     "@pyroswap/uikit" "^0.37.4"
     "@reach/dialog" "^0.10.3"
     "@reach/portal" "^0.10.3"
@@ -2898,6 +2898,19 @@
   version "0.37.6"
   resolved "https://registry.yarnpkg.com/@pyroswap/uikit/-/uikit-0.37.6.tgz#5c099314d18e1e01fb15febced94425f250160fe"
   integrity sha512-xN504p/xShmreD968GGX1MYf/ylswOce5jtPQ8sXITdcyypYY+i7oi1OXbFyCGeX9bkpMV9GN4t58CSaXoYLUg==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    "@types/lodash" "^4.14.168"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-popper "^2.2.5"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
+"@pyroswap/uikit@^0.37.9":
+  version "0.37.9"
+  resolved "https://registry.yarnpkg.com/@pyroswap/uikit/-/uikit-0.37.9.tgz#866e06c5ac570b1e78ae6920b1048f1574c2204b"
+  integrity sha512-B6c4GstLrDfe7uqRLVCbHcp2tSrSBrztEnylhFtWrJktae8a80oS6KeizKN6qnuC0uI2RZeZqv6RwOk2cD0g6A==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"

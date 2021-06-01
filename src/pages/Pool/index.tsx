@@ -11,7 +11,7 @@ import { LightCard } from 'components/Card'
 import { RowBetween } from 'components/Row'
 import { AutoColumn } from 'components/Column'
 import Container from 'components/Container'
-
+import { Link } from 'react-router-dom'
 import { useActiveWeb3React } from 'hooks'
 import { usePairs } from 'data/Reserves'
 import { toV2LiquidityToken, useTrackedTokenPairs } from 'state/user/hooks'
@@ -62,9 +62,9 @@ export default function Pool() {
           title={TranslateString(262, 'Liquidity')}
           description={TranslateString(1168, 'Add liquidity to receive LP tokens')}
         >
-          <Button id="join-pool-button" disabled mb="16px">
-            {TranslateString(168, "You can't add liquidity on V1")}
-          </Button>
+        <Button id="join-pool-button" as={Link} to="/add/ETH">
+          Add Liquidity
+        </Button>
         </PageHeader>
         <AutoColumn gap="lg" justify="center">
           <CardBody>
