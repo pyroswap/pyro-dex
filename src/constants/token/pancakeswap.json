@@ -16,7 +16,23 @@
       "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
       "chainId": 4,
       "decimals": 18,
-      "logoURI": "https://dex.pyroswap.com/images/coins/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+      "logoURI": "https://dex.pyroswap.com/images/coins/0xc778417E063141139Fce010982780140Aa0cD5Ab.png"
+    },
+    {
+      "name": "USD Tether",
+      "symbol": "USDT",
+      "address": "0xBc8f6fB899b4BD38d45520F8b34b5ad91fED2F55",
+      "chainId": 4,
+      "decimals": 18,
+      "logoURI": "https://dex.pyroswap.com/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
+    },
+    {
+      "name": "PyroSwap Token",
+      "symbol": "PYRO",
+      "address": "0x964C9ccaF7a8cE445d93b7a209ee700e9427c68b",
+      "chainId": 4,
+      "decimals": 18,
+      "logoURI": "https://dex.pyroswap.com/images/coins/0x964C9ccaF7a8cE445d93b7a209ee700e9427c68b.png"
     }
   ]
 }
