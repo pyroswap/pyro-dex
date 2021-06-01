@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@pyroswap/sdk'
+import { ChainId, JSBI, Percent, Token } from '@pyroswap/sdk'
 
 export const ROUTER_ADDRESS = '0x1493a932E1Cac20d2DE41fE4Dd10EdafCBdCFaE2'
 
@@ -14,7 +14,7 @@ export const CAKE = new Token(
   'PYRO',
   'PyroSwap Token'
 )
-export const WBNB = new Token(ChainId.MAINNET, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped ETH')
+export const WETH = new Token(ChainId.MAINNET, '0xc778417E063141139Fce010982780140Aa0cD5Ab', 18, 'WETH', 'Wrapped ETH')
 export const USDT = new Token(ChainId.MAINNET, '0xBc8f6fB899b4BD38d45520F8b34b5ad91fED2F55', 18, 'USDT', 'Tether USD')
 
 const WETH_ONLY: ChainTokenList = {
@@ -50,7 +50,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
   [ChainId.MAINNET]: [
-    [CAKE, WBNB],
+    [CAKE, WETH],
   ],
 }
 
