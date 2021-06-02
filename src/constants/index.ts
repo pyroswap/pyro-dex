@@ -9,7 +9,7 @@ type ChainTokenList = {
 
 export const CAKE = new Token(
   ChainId.MAINNET,
-  '0x457CFe91246eefbBD27ae6c94FC466240100CD33',
+  '0x7e6dB6BA3ee86907C59fd4538e1040Cc7821Aa00',
   18,
   'PYRO',
   'PyroSwap Token'

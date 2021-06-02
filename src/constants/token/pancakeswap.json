@@ -29,10 +29,10 @@
     {
       "name": "PyroSwap Token",
       "symbol": "PYRO",
-      "address": "0x457CFe91246eefbBD27ae6c94FC466240100CD33",
+      "address": "0x7e6dB6BA3ee86907C59fd4538e1040Cc7821Aa00",
       "chainId": 4,
       "decimals": 18,
-      "logoURI": "https://dex.pyroswap.com/images/coins/0x964C9ccaF7a8cE445d93b7a209ee700e9427c68b.png"
+      "logoURI": "https://dex.pyroswap.com/images/coins/0x7e6dB6BA3ee86907C59fd4538e1040Cc7821Aa00.png"
     }
   ]
 }
