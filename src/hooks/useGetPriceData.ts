@@ -12,7 +12,7 @@ type ApiResponse = {
   }
 }
 
-const api = 'https://api.pyroswap.info/api/tokens'
+const api = 'https://pyro-info-api.vercel.app/api/tokens'
 
 const useGetPriceData = () => {
   const [data, setData] = useState<ApiResponse | null>(null)
